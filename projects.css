@@ -23,6 +23,12 @@ h1 {
   flex-wrap: wrap;
 }
 
+.projects {
+  font-size:18px;
+  padding-bottom:25%;
+  text-indent:45pt;
+}
+
 footer {
   text-align:center;
 }
