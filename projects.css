@@ -29,6 +29,11 @@ h1 {
   text-indent:45pt;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   text-align:center;
 }
