@@ -21,5 +21,9 @@ h1 {
   align-items: space-around;
   align-content:space-around;
   flex-wrap: wrap;
-  
+}
+
+.aboutme {
+  margin-left:10%;
+  margin-right:10%;
 }
