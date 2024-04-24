@@ -26,7 +26,6 @@ h1 {
 .projects {
   font-size:18px;
   padding-bottom:25%;
-  text-indent:45pt;
 }
 
 .project-list {
@@ -39,11 +38,13 @@ h1 {
   flex-direction:column;
   text-align:left;
   padding-bottom:5%;
+  padding-left:5%;
+  border-style:solid;
+  margin-right:25%
 }
 
 img {
   max-width:50%;
-  margin-left:5%;
 }
 
 footer {
