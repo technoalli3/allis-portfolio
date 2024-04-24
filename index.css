@@ -2,6 +2,7 @@
   outline: 1px solid;
   flex-grow: 100;
   font-size: 100%;
+  padding:3%;
 }
 
 .menubar {
@@ -10,7 +11,7 @@
   border-radius:5px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
+  align-items: space-around;
+  align-content:space-around;
   flex-wrap: wrap;
 }
