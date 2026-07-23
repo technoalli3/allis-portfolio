@@ -27,23 +27,22 @@ a {
   align-items: center;
   justify-content: center;
   color: #DBDEE1;
+  border-radius: 999px;
 }
 
 .selected-menuitem {
-  background-color:#586AEA;
+  background-color:#a858ea;
 }
 
 .menubar {
   margin-left: 5%;
   margin-right: 5%;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 footer {
