@@ -3,7 +3,13 @@ h1 {
   font-size: 50px;
 }
 
-.projects {
+p {
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 20px;
+}
+
+.images {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 1.5rem;
@@ -12,36 +18,38 @@ h1 {
   margin: 0 5%;
   padding-bottom: 2rem;
   align-items: stretch;
+  border-radius: 5%;
+  background: #96008B;
+}
+
+@media (max-width: 700px) {
+  .images {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    margin: 0;
+  }
 }
 
 .col {
   display: contents;
 }
 
-.project-list-item {
+.image-item {
   text-align: center;
   padding: 5%;
   margin-bottom: 0;
-  border-radius: 5%;
-  background: #53004e;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   height: 100%;
   box-sizing: border-box;
+  min-width: 0;
 }
 
 img {
-  max-width: 100%;
+  border-radius: 5%;
   display: block;
-}
-
-.item {
-  font-size: 25px;
-  display: inline-block;
-}
-
-.img-link {
-  color: #FF82F8;
-  text-decoration: underline;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid BLACK;
 }
