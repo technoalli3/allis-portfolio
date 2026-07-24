@@ -1,4 +1,7 @@
 html {
+  background: #611b4b;
+  background: linear-gradient(145deg, rgba(97, 27, 75, 1) 0%, rgba(56, 51, 57, 1) 42%, rgba(49, 51, 56, 1) 100%);
+  background-repeat: no-repeat;
   background-color: #313338;
   color: #DBDEE1;
   border-color: #DBDEE1;
@@ -28,6 +31,11 @@ a {
   justify-content: center;
   color: #DBDEE1;
   border-radius: 999px;
+}
+
+.menuitem:hover {
+  background-color: #360033;
+  cursor: pointer;
 }
 
 .selected-menuitem {
