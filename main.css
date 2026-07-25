@@ -7,10 +7,22 @@ html {
   background-color: #313338;
   color: #DBDEE1;
   border-color: #DBDEE1;
-  font-family: "Corben", serif;
+  font-family: "Life Savers", serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
+}
+
+.life-savers-extrabold {
+  font-family: "Life Savers", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Life Savers", serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 body {
